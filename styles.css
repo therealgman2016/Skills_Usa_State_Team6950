@@ -16,10 +16,11 @@ h1 {
 
 .header-nav {
     background-color: #E1D7C6;
-    display: block;
+    display: flex;
     padding:10px;
     text-decoration: none;
     font-size: 20px;
+    padding-bottom: 5px;
     
 }
 
@@ -29,8 +30,7 @@ h1 {
     width: 100%;
     background-color: #D6CCC2;
     flex-direction: row;
-    stroke: black;
-    stroke-width: 3px;
+    border: 2px solid black
 
     
 }
@@ -50,11 +50,13 @@ h1 {
 .content1img {
     width: 100%;
     height: 100%;
+
 }
 
 .center-content {
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
 
 
 }
@@ -128,4 +130,26 @@ div.gallery img {
 .footertext {
     text-align: center;
     
+}
+
+.middle-content {
+    display: flex;
+    background-color:  #F8F4EA;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    
+}
+.image-holder {
+    padding: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.skills-png {
+    width: auto;
+    height: auto;
+    justify-content: center;
 }
