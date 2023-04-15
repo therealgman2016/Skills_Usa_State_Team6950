@@ -1,0 +1,18 @@
+nav {
+    font-size: 15px;
+    float: right;
+    
+}
+
+ul {
+    border-right: 1px solid black;
+}
+
+.food-logo {
+    float: left;
+}
+
+.logo-text{
+    padding-left: 50px;
+}
+
