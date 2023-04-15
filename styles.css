@@ -102,3 +102,30 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    width: 1500px;
+}
+
+div.gallery img {
+    width: 365px;
+    height: 365px;
+    border: 2px solid black;
+}
+
+.footer {
+    height: 200px;
+    width: auto;
+}
+
+.footerh1 {
+    font-size: 50px;
+
+}
+
+.footertext {
+    text-align: center;
+    
+}
