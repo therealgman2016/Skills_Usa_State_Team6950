@@ -19,5 +19,8 @@ h1 {
 }
 
 .header-nav {
-    
+    display: inline;
+    list-style-type: none;
+    float: right;
+    padding-inline: 5px;
 }
