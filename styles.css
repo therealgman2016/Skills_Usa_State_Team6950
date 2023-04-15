@@ -18,12 +18,14 @@ h1 {
 }
 
 .header-nav {
-    display: inline;
-    list-style-type: none;
-    float: right;
-    padding-inline: 5px;
+    background-color: blue;
+    display: block;
+    padding:10px;
+    text-decoration: none;
 
+    
 }
+
 
 .content1 {
     height: 400px;
@@ -38,4 +40,32 @@ h1 {
     padding-top: 20px;
     line-height: 30px;
     font-size: 22px;
+}
+
+li {
+    display: inline;
+    background-color: red;
+    padding: 5px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color:black
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: solid;
+    background-color: yellow;
+    padding: 2px;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black
 }
