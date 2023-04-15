@@ -4,9 +4,6 @@ nav {
     
 }
 
-ul {
-    border-right: 1px solid black;
-}
 
 .food-logo {
     float: left;
@@ -18,11 +15,11 @@ h1 {
 }
 
 .header-nav {
-    background-color: blue;
+    background-color: #E1D7C6;
     display: block;
     padding:10px;
     text-decoration: none;
-
+    font-size: 20px;
     
 }
 
@@ -62,13 +59,13 @@ li {
     display: inline;
     background-color: red;
     padding: 5px;
-    background-color: gray;
+    background-color: #D5BDAF;
     text-decoration: none;
 }
 
 a:link {
     text-decoration: none;
-    color:black
+    color:#EDEDE9
 }
 
 a:active {
@@ -77,11 +74,15 @@ a:active {
 
 a:hover {
     text-decoration: solid;
-    background-color: yellow;
+    background-color: #D6CCC2;
     padding: 2px;
 }
 
 a:visited {
     text-decoration: none;
-    color:black
+    color: #EDEDE9
+}
+
+body {
+    background-color: #F8F4EA;
 }
