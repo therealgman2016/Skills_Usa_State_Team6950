@@ -13,11 +13,26 @@ ul {
 }
 
 
-
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .header-nav {
-    
+
+
+}
+
+.content1 {
+    height: 400px;
+    width: 1000px;
+    background-color: #D6CCC2;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content1text {
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 22px;
 }
