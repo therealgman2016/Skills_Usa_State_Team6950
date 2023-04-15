@@ -27,15 +27,32 @@ h1 {
 
 .content1 {
     height: 400px;
-    width: 1000px;
+    width: 750px;
     background-color: #D6CCC2;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 70px;
+    float: left;
+    clear: both;
+    
 }
+
+
 
 .content1text {
     padding-left: 20px;
     padding-top: 20px;
     line-height: 30px;
     font-size: 22px;
+}
+
+.content1img {
+    height: 400px;
+    width: auto;
+    float: right;
+    clear: both;
+
+}
+
+.content1imgrightcenter {
+    display: flex;
+    align-items: center;
 }
