@@ -2,7 +2,6 @@
 
 
 .food-logo {
-    float: left;
     padding-right: 5px;
 }
 
@@ -25,10 +24,20 @@ h1 {
     justify-content: space-between;
     font-size: 20px;
     width: 100%;
+    height: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    height: 100%;
+    flex-wrap: wrap;
+    
+
 }
+
+.logo {
+    display: flex;
+    height: 20%;
+    width: 20%;
+}
+
 
 nav {
     display: inline-flex;
@@ -77,8 +86,10 @@ nav {
 }
 
 .content1img {
-    width: 100%;
-    height: 100%;
+    display:flex;
+    width: fit-content;
+    height: fit-content;
+    border: solid black 1px
 
 }
 
@@ -87,9 +98,7 @@ nav {
     align-items: center;
     padding-bottom: 5px;
     width: 100%;
-    height: 300px;
-
-
+    height: fit-content;
 }
 
 .content1imgrightcenter {
@@ -110,22 +119,22 @@ li {
 }
 
 
-a:link {
+.hover-button:link {
     text-decoration: none;
     color:#EDEDE9
 }
 
-a:active {
+.hover-button:active {
     text-decoration: none;
 }
 
-a:hover {
+.hover-button:hover {
     text-decoration: solid;
     background-color: #D6CCC2;
 
 }
 
-a:visited {
+.hover-button:visited {
     text-decoration: none;
     color: #EDEDE9
 }
@@ -142,23 +151,26 @@ body {
 }
 
 .gallery {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     flex-direction: row;
     margin: 5px;
     border: 3px solid black;
     width: 100%;
     height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 
 .footer-outside {
-    height: 200px;
-    width: auto;
     display: flex;
+    height: auto;
+    width: auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
+
 }
 
 .footerh1 {
@@ -190,34 +202,34 @@ body {
     
 }
 .image-holder {
-    padding: 10px;
+    padding: 20px;
     display: flex;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     justify-content: center;
 }
 
 .skills-png {
-    width: auto;
-    height: auto;
+    width: 30%;
+    height: 30%;
     justify-content: center;
+    
 }
 
 .partners {
     display: flex;
-    justify-content: center;
+    justify-content: none;
     width: 100%;
     height: 100%;
+
 }
 
 
 
 .bottom-logo {
     display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content:center;
-    flex-direction: row;
+    padding-right: 5px;
+    
 }
 
 
@@ -231,14 +243,59 @@ body {
 
 .bottom-logo-text {
     display: flex;
-    width: auto;
-    height: auto;
-    justify-content: center;
-    flex-direction: row;
     padding-left: 5px;
+ 
 }
 
 .footer-inside {
     display: flex;
+    justify-content:space-around;
+}
+
+.footertext {
+    display: flex;
     justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+
+
+.home-button:hover {
+    text-decoration: none;
+    background-color: none;
+}
+
+.home-button:visited {
+    text-decoration: none;
+    background-color: none;
+    color: black;
+}
+
+.home-button:link {
+    text-decoration: none;
+    color:#EDEDE9
+}
+
+.home-button:active {
+    text-decoration: none;
+}
+
+.under-contruction {
+    display: flex;
+    background-color:#58769e;
+    border: solid black 2px;
+    padding-top: 50px;
+}
+
+.content-under-contruction {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f4ea;
+    flex-direction: column;
 }
