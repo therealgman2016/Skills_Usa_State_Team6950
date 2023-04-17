@@ -182,6 +182,7 @@ body {
 .footertext {
     text-align: center;
     display: flex;
+    font-size: x-small
     
     
 }
